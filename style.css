@@ -1,0 +1,91 @@
+body {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border: 10px inset grey ;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgrey; 
+}
+
+.box {
+    border: 2px dotted black;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: none;
+    border-left: none;
+    box-sizing: content-box;
+}
+
+img {
+    width: 48px;
+    height: 48px;
+}
+
+.un, .deux, .trois {
+    font-size: 30px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.un {
+    color: blue;
+}
+
+.deux {
+    color: green;
+}
+
+.trois {
+    color: red;
+}
+
+.bottom {
+    border-bottom: none;
+}
+
+.right {
+    border-right: none;
+}
+
+.empty {
+    border: 3px outset grey;
+    width: 44px;
+    height: 44px;
+    background-color: grey;
+    color: grey;
+}
+
+.empty:hover {
+    border: 1px dotted black;
+    background-color: lightgrey;
+    width: 48px;
+    height: 48px;
+    transition: 1.2s ease;
+}
+
+.un:hover {
+    color: blue;
+}
+
+.deux:hover {
+    color:green
+}
+
+.trois:hover {
+    color: red;
+}
+
+.bomb:hover {
+    background-image: url("bomb.gif");
+    background-size: cover;
+}
