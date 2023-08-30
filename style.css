@@ -1,5 +1,6 @@
 body {
     background-color: lightgrey;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +35,6 @@ img {
 .un, .deux, .trois {
     font-size: 30px;
     font-weight: bold;
-    z-index: 1;
 }
 
 .un {
